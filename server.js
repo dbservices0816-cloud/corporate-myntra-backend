@@ -16,7 +16,10 @@ const corsOptions = {
   origin: [
     "http://localhost:5173",        // Vite local
     "http://127.0.0.1:5173",       
-    "http://192.168.0.102:5173"     // network/mobile
+    "http://192.168.0.102:5173" ,    // network/mobile
+     "https://corporatemitraportal.com",   // ✅ ADD THIS
+    "https://www.corporatemitraportal.com" // ✅ ADD THIS
+
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
