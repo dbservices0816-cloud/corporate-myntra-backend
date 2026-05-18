@@ -12,6 +12,7 @@ const submitQuery = async (req, res) => {
       });
     }
 
+    
     const newQuery = await Query.create({
       name,
       email,
